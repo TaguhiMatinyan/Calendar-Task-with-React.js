@@ -1,0 +1,174 @@
+body {
+    color: #3174ad;
+    cursor: pointer;
+}
+
+.popup {
+    width: 400px;
+    height: 420px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    color: #3174ad;
+    box-shadow: 1px 2px 3px #3174ad;
+}
+
+.calendar {
+    height: 600px;
+    margin: 45px;
+    border: 1px solid #3174ad;
+}
+
+.popup-content {
+    width: 400px;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.popup>h2 {
+    color: #3174ad;
+}
+
+.popup>.title,
+.inputt {
+    width: 98%;
+    height: 30px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    color: #3174ad;
+    border: 1px solid #3174ad;
+    box-shadow: 1px 2px 3px #3174ad;
+
+}
+
+.popup>.title {
+    height: 50px;
+
+}
+
+.popup>button {
+    height: 40px;
+    margin: 5px;
+    width: 100px;
+    box-shadow: 1px 2px 3px #3174ad;
+    background-color: #3174ad;
+    color: white;
+    border: 1px solid #3174ad;
+}
+
+.btn>button {
+    height: 40px;
+    margin: 5px;
+    width: 100px;
+    box-shadow: 1px 2px 3px #3174ad;
+    background-color: #3174ad;
+    color: white;
+    border: 1px solid #3174ad;
+}
+
+.btn>button:hover {
+    height: 35px;
+    color: #3174ad;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.popup>button:hover {
+    height: 40px;
+    color: #3174ad;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.rbc-calendar {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.rbc-month-row,
+.rbc-row-bg,
+.rbc-row,
+.rbc-date-cell,
+.rbc-off-range {
+    width: 100%;
+}
+
+.rbc-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.rbc-row-content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 0;
+}
+
+.rbc-today {
+    background-color: white;
+}
+
+.rbc-event {
+    background-color: #3174ad;
+    border: 1px solid #2a5f94;
+    color: white;
+}
+
+.rbc-addons-dnd .rbc-addons-dnd-resizable-month-event {
+    position: relative;
+    z-index: 5;
+}
+
+.rbc-addons-dnd .rbc-addons-dnd-resizable-month-event .rbc-addons-dnd-resize-month-event-anchor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.rbc-addons-dnd .rbc-addons-dnd-resizable-month-event .rbc-addons-dnd-resize-month-event-anchor:hover {
+    cursor: ew-resize;
+}
+
+
+.rbc-btn-group>button {
+    height: 30px;
+    color: #3174ad;
+    font-weight: bold;
+}
+
+.rbc-btn-group>button:hover {
+    background-color: #3174ad;
+    color: white;
+    cursor: pointer;
+}
+
+.rbc-ac.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active {
+    background-color: #3174ad;
+    color: white;
+}
+
+.rbc-event {
+    background-color: #3174ad;
+}
+
+.rbc-toolbar {
+    border-radius: 15px;
+    height: 30px;
+    color: #3174ad;
+}
